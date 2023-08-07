@@ -53,9 +53,7 @@ module.exports = {
         md: `calc(var(--radius) - 2px)`,
         sm: "calc(var(--radius) - 4px)",
       },
-      fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
-      },
+
       keyframes: {
         "accordion-down": {
           from: { height: 0 },
@@ -69,6 +67,24 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+        "louvette-banner": ["Louvette Banner", "serif"],
+        "delfina-script": ["delfina-script", "sans-serif"],
+        sofachrome: ["sofachrome", "sans-serif"],
+        objektiv: ["objektiv-variable", "sans-serif"],
+      },
+
+      inset: {
+        // '1/2': '50%', // Useful for centering
+        // '1/3': '33.333333%', // Useful for grid layouts
+        // '2/3': '66.666667%', // Useful for grid layouts
+        // '1/4': '25%', // Useful for grid layouts
+        // '3/4': '75%', // Useful for grid layouts
+        golden: "38.2%", // Golden ratio
+        "inverse-golden": "61.8%", // Inverse golden ratio
       },
     },
   },
