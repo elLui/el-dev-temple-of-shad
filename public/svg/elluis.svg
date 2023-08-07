@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420.36 337.78">
+    <defs>
+        <style>
+            .cls-1 {
+            fill: #416dbb;
+            font-size: 198.59px;
+            letter-spacing: -.04em;
+            }
+
+            .cls-1, .cls-2 {
+            font-family: delfina-script, 'Delfina Script';
+            }
+
+            .cls-2 {
+            fill: #417dbb;
+            font-size: 217.85px;
+            letter-spacing: -.06em;
+            }
+        </style>
+    </defs>
+    <g id="text">
+        <text class="cls-1" transform="translate(85.94 265.45) rotate(-30.89) scale(.99 1)">
+            <tspan x="0" y="0">eL</tspan>
+        </text>
+        <text class="cls-2" transform="translate(163.74 274.39) rotate(-25.73) scale(.96 1)">
+            <tspan x="0" y="0">Luis</tspan>
+        </text>
+    </g>
+</svg>

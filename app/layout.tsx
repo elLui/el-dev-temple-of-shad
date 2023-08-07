@@ -1,4 +1,5 @@
 import "@/styles/globals.css"
+
 import { Metadata } from "next"
 
 import { siteConfig } from "@/config/site"
@@ -40,6 +41,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
             fontSans.variable
           )}
         >
+          {/*
+           ? TODO :: refactor out ThemeProvider to our preferred Provider context pattern, so that it will make it
+           ? easier to add additional contexts, it next-auth context providers assembled separately then brought it
+           ? as 1 element into the RootMainLayout
+           */}
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
